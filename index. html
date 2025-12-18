@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your habits and discipline to stay focused on your goals.">
+    <title>Discipline Tracker</title>
+    <!-- Link to the external CSS -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Discipline & Focus Tracker</h1>
+            <p>Stay on top of your habits and track your daily progress!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="habit-list">
+            <h2>My Habits</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="habit1">
+                    <label for="habit1">Wake up at 6 AM</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="habit2">
+                    <label for="habit2">Study 2 hours</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="habit3">
+                    <label for="habit3">Exercise 30 minutes</label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="progress-section">
+            <h3>Progress</h3>
+            <canvas id="progressChart"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Discipline Tracker. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to the external JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
